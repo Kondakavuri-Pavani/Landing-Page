@@ -11,6 +11,6 @@ live-server --no-browser
 
 2. Refresh the URL in simple browser to see the output
 
-GitHub Pages Link- https://kondakavuri-pavani.github.io/Landing-Page/
 
-ByteXL Link- https://landing-page.bytexl.live/
+
+ByteXL Link- https://tech-solution.bytexl.live/
