@@ -1,89 +1,105 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
   margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.main-title {
+  color: #2C3E50;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.roles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.role-button {
+  background: linear-gradient(135deg, #3498db, #6dd5fa);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  width: 150px;
   text-align: center;
 }
 
-/* Navbar */
-header {
-  background: #333;
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.role-button:hover {
+  background: linear-gradient(135deg, #2980b9, #3498db);
 }
 
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-/* Hero Section */
-.hero {
-  padding: 50px;
-  background: #f4f4f4;
-}
-
-/* Features */
-#features {
-  padding: 30px;
-  background-color: #eef2f3;
-}
-
-.features-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.feature {
-  padding: 15px;
-  background: #dce6e6;
-  border-radius: 5px;
-  width: 200px;
-  margin: 10px;
-}
-
-/* Contact */
-form {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: auto;
-}
-
-input, button {
-  padding: 12px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 25px;
+.role-instruction {
+  text-align: center;
   font-size: 18px;
+  color: #2C3E50;
+  margin-top: 15px;
   font-weight: bold;
-  color: white;
-  background: #4CAF50;
-  border: none;
-  border-radius: 50px;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
 }
 
-/* Hover Effect */
-.btn:hover {
-  background: #45a049;
-}
-
-/* Footer */
-footer {
-  background: #333;
-  color: white;
-  padding: 10px;
+.role-details {
   margin-top: 20px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.role-title {
+  color: #2C3E50;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.role-info {
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.role-text {
+  color: #3a5d7a; /* Change this to your desired color */
+  font-size: 16px;
+  margin: 8px 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.role-text strong {
+  color: #2C3E50;
 }
